@@ -1,2 +1,2 @@
-# MultiCard
+# Myriad
 Multiple Payment Method Application
