@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Myriad",
+  "version": "0.1",
+  "author": "AMB",
+  "description": "Create a Multiple Payment method Chrome extension to be utilized in online retail stores",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*checkout/*",
+        "http://*/*checkout",
+        "https://*/*checkout/*",
+        "https://*/*checkout"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
